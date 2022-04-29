@@ -1,0 +1,33 @@
+.cham__team {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 80vh;
+
+  background-image: url('../../assets/team-bg.jpeg');
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cham__team a {
+  position: absolute;
+}
+.team_btn {
+  font-size: var(--step-1);
+  padding: 1.2rem 4.5rem;
+}
+
+@media screen and (max-width: 62rem) {
+  .cham__team {
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 43rem) {
+  .cham__team {
+    height: 55vh;
+  }
+}

@@ -1,0 +1,28 @@
+.header__section {
+  display: flex;
+  justify-content: center;
+}
+
+.champ__header {
+  display: flex;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.champ__header img {
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  height: 75vh;
+
+}
+@media screen and (max-width: 62rem) {
+  .champ__header img {
+    height: 65vh;
+  }
+}
+@media screen and (max-width: 43rem) {
+  .champ__header img {
+    height: 50vh;
+  }
+}

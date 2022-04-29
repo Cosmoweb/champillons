@@ -1,0 +1,76 @@
+.champ_section.champ__footer {
+  background: var(--color-primary);
+  width: 100%;
+  padding: 6rem 2rem;
+  margin-bottom: 0px;
+}
+.footer_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.champ__footer-icons,
+.champ__footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.champ__footer-logo img {
+  margin-right: 10px;
+  transition: all 0.4s ease-in-out;
+  transform: scale(1);
+}
+.champ__footer-logo img:hover {
+  transform: scale(1.2);
+}
+
+.champ__footer-icons {
+  margin-bottom: 1.5rem;
+}
+.champ__footer-icons img {
+  margin: 0 1rem;
+  transition: all 0.4s ease-in-out;
+  transform: scale(1);
+}
+.champ__footer-icons img:hover {
+  transform: scale(1.2);
+}
+.champ__footer-bar {
+  background: var(--color-secondary);
+  width: 100%;
+}
+.champ__footer-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  padding: 1rem 1.5rem;
+}
+.champ__footer-bar a {
+  display: inline-block;
+  position: relative;
+}
+.champ__footer-bar a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-primary);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.champ__footer-bar a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@media screen and (max-width: 62rem) {
+  .champ__footer-icons img {
+    width: 50px;
+  }
+}
