@@ -45,7 +45,7 @@
 }
 
 @media screen and (max-width: 62rem) {
-  .champ__navbar {
+  #top {
     --padding-main: 2rem 2rem;
   }
 }
@@ -54,7 +54,7 @@
   .champ__social-header svg {
     display: none;
   }
-  .champ__navbar {
+  #top {
     --padding-main: 2rem 1rem;
   }
 }

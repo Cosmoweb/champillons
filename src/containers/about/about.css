@@ -67,6 +67,7 @@
   object-position: 50% 50%;
   cursor: pointer;
   transition: 0.5s ease-in-out;
+  border-radius: 20px;
 }
 
 /***** MEDIA QUERY *****/
@@ -100,6 +101,9 @@
   .champ__text h2::before {
     bottom: -20px;
     height: 15px;
+  }
+  .champ__text p {
+    margin-bottom: 2.5rem;
   }
 }
 @media screen and (max-width: 62rem) {

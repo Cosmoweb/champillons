@@ -29,5 +29,6 @@
 @media screen and (max-width: 43rem) {
   .cham__team {
     height: 55vh;
+    background-attachment: initial;
   }
 }
