@@ -11,7 +11,11 @@ const footer = () => {
       <section className="champ_section champ__footer ">
         <div className="champ_page_width footer_wrapper">
           <div className="champ__footer-icons">
-            <a href="https://twitter.com/Champillons" target="_blank">
+            <a
+              href="https://twitter.com/Champillons"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={twitter} alt="Twitter Logo" />
             </a>
             <img src={discord} alt="Discord Logo" />
@@ -28,7 +32,11 @@ const footer = () => {
         <p>
           {' '}
           © 2022 Champillons | Terms & conditions | Website by{' '}
-          <a href="https://twitter.com/webmonkeyy" target="_blank">
+          <a
+            href="https://twitter.com/webmonkeyy"
+            target="_blank"
+            rel="noreferrer"
+          >
             Webmonkeyy
           </a>
         </p>

@@ -27,7 +27,11 @@ const navbar = () => {
             duration: 0.5,
           }}
         >
-          <a href="https://twitter.com/Champillons" target="_blank">
+          <a
+            href="https://twitter.com/Champillons"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaTwitter />
           </a>
           <FaDiscord />
