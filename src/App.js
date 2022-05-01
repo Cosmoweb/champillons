@@ -7,33 +7,29 @@ import './App.css';
 function App() {
   const [faqs, setfaqs] = useState([
     {
-      question: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
-      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing ',
+      question: "What's your supply?",
+      answer: '5555 ',
       open: false,
     },
     {
-      question: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
-      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing ',
+      question: "What's your mint cost?",
+      answer: '0.04',
       open: false,
     },
     {
-      question: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
-      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing ',
+      question: "What's the mint date?",
+      answer: 'TBA',
       open: false,
     },
     {
-      question: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
-      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing ',
+      question: 'Is the whole collection animated?',
+      answer:
+        'The legendary 1/1 Champillons will be animated. The remaining will be still NFTs ',
       open: false,
     },
     {
-      question: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
-      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing ',
-      open: false,
-    },
-    {
-      question: 'Lorem ipsum dolor sit amet, consectetur adipiscing',
-      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing ',
+      question: 'What contract will you be using?',
+      answer: 'A gas optimised contract ',
       open: false,
     },
   ]);

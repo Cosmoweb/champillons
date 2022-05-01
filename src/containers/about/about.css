@@ -8,7 +8,7 @@
   padding: var(--padding-main);
 }
 .champ__text h2 {
-  font-size: var(--step-3);
+  font-size: var(--step-2);
   font-weight: 200;
   text-transform: uppercase;
   position: relative;
@@ -16,6 +16,8 @@
   line-height: 1;
   margin-bottom: 2rem;
   color: var(--color-secondary);
+  overflow-wrap: break-word;
+  width: fit-content;
 }
 .champ__text h2::before {
   content: '';
@@ -23,13 +25,13 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 25px;
+  height: 18px;
   background: var(--color-primary);
   z-index: -1;
 }
 .champ__text p {
   margin-top: 1rem;
-  font-size: var(--step-0);
+  font-size: var(--step--1);
   font-weight: 200;
 }
 
@@ -94,6 +96,17 @@
     padding: 2rem 2rem;
   }
 }
+@media screen and (max-width: 1308px) {
+  .champ__text h2::before {
+    bottom: -20px;
+    height: 15px;
+  }
+}
+@media screen and (max-width: 62rem) {
+  /* .champ__text h2::before {
+    position: absolute;
+  } */
+}
 @media screen and (max-width: 43rem) {
   .champ_animation_item {
     display: grid;
@@ -106,5 +119,11 @@
   }
   .champ__animations {
     padding: 2rem 1rem;
+  }
+}
+@media screen and (max-width: 475px) {
+  .champ__text h2::before {
+    bottom: -20px;
+    height: 15px;
   }
 }

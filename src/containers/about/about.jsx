@@ -21,17 +21,20 @@ const about = () => {
               duration: 2.5,
             }}
           >
-            <h2> About Us</h2>
+            <h2> Vision and the Champillons </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. <br></br>
+              Vision starts with values. Our core values reflect us, values that
+              will allow us to prosper in Web3, together.<br></br>
+              <br></br>Humility &gt; Hype <br></br>Quality &gt; Quantity
+              <br></br> Health &gt; Wealth
               <br></br>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
+              <br></br>
+              Our core vision and values are guided by the creation of our
+              brand, refined by our culture. These values will never, ever
+              change and drives our core. Curated art. Both a digital identity
+              and a unique collectible. The theme of interconnectedness is one
+              in which I strongly believe in. Interconnectedness in community,
+              interconnectedness in vision and interconnectedness in media.
             </p>
           </motion.div>
           <div className="champ__animations">
