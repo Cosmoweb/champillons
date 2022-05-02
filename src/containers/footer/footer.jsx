@@ -1,9 +1,9 @@
-import React from 'react';
-import './footer.css';
-import twitter from '../../assets/icon_twitter.png';
-import discord from '../../assets/icon_discord.png';
-import opensea from '../../assets/icon_opensea.png';
-import footer_logo from '../../assets/champillons-logo-footer.png';
+import React from "react";
+import "./footer.css";
+import twitter from "../../assets/icon_twitter.png";
+import discord from "../../assets/icon_discord.png";
+import opensea from "../../assets/icon_opensea.png";
+import footer_logo from "../../assets/champillons-logo-footer.png";
 
 const footer = () => {
   return (
@@ -30,8 +30,8 @@ const footer = () => {
       </section>
       <div className="champ__footer-bar">
         <p>
-          {' '}
-          © 2022 Champillons | Terms & conditions | Website by{' '}
+          {" "}
+          © 2022 Champillons | Website by{" "}
           <a
             href="https://twitter.com/webmonkeyy"
             target="_blank"
