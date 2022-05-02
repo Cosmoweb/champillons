@@ -18,8 +18,8 @@ const footer = () => {
             >
               <img src={twitter} alt="Twitter Logo" />
             </a>
-            <img src={discord} alt="Discord Logo" />
-            <img src={opensea} alt="Opensea Logo" />
+            {/* <img src={discord} alt="Discord Logo" /> */}
+            {/* <img src={opensea} alt="Opensea Logo" /> */}
           </div>
           <div className="champ__footer-logo">
             <a href="#top">

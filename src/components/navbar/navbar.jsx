@@ -1,8 +1,8 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import './navbar.css';
-import { FaTwitter, FaDiscord } from 'react-icons/fa';
-import logo from '../../assets/champillons_logo_head.png';
+import React from "react";
+import { motion } from "framer-motion";
+import "./navbar.css";
+import { FaTwitter, FaDiscord } from "react-icons/fa";
+import logo from "../../assets/champillons_logo_head.png";
 
 const navbar = () => {
   return (
@@ -34,7 +34,7 @@ const navbar = () => {
           >
             <FaTwitter />
           </a>
-          <FaDiscord />
+          {/* <FaDiscord /> */}
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
