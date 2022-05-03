@@ -1,9 +1,7 @@
-import React from "react";
-import "./footer.css";
-import twitter from "../../assets/icon_twitter.png";
-import discord from "../../assets/icon_discord.png";
-import opensea from "../../assets/icon_opensea.png";
-import footer_logo from "../../assets/champillons-logo-footer.png";
+import React from 'react';
+import './footer.css';
+import { FaTwitter, FaDiscord, FaInstagram } from 'react-icons/fa';
+import footer_logo from '../../assets/champillons-logo-footer.png';
 
 const footer = () => {
   return (
@@ -16,10 +14,16 @@ const footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={twitter} alt="Twitter Logo" />
+              <FaTwitter />
             </a>
-            {/* <img src={discord} alt="Discord Logo" /> */}
-            {/* <img src={opensea} alt="Opensea Logo" /> */}
+
+            <a
+              href="https://instagram.com/pivboi_3d"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaInstagram />
+            </a>
           </div>
           <div className="champ__footer-logo">
             <a href="#top">
@@ -30,8 +34,8 @@ const footer = () => {
       </section>
       <div className="champ__footer-bar">
         <p>
-          {" "}
-          © 2022 Champillons | Website by{" "}
+          {' '}
+          © 2022 Champillons | Website by{' '}
           <a
             href="https://twitter.com/webmonkeyy"
             target="_blank"

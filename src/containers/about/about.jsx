@@ -61,7 +61,7 @@ const about = () => {
             </div>
           </div>
         </div>
-        <div className="white-bg"></div>
+        {/* <div className="white-bg"></div> */}
       </section>
     </>
   );

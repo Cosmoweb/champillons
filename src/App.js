@@ -7,6 +7,13 @@ import './App.css';
 function App() {
   const [faqs, setfaqs] = useState([
     {
+      question: "Who's the artist?",
+      answer: [
+        'Pivboi. A passionate artist with many years designing 3D models and animation. \n\n-Worked at "Kisah Kreatif" which is a creative digital agency based on Indonesia, and coach of 3D modelling using blender software workshop.\n\n- Designed a 3D character of a bank corporation in Indonesia, Mandiri Livin, used in their calender.\n\n - Intership in Lumine Studio, animation studio for VFZ, Movies, etc',
+      ],
+      open: false,
+    },
+    {
       question: "What's your supply?",
       answer: '5555 ',
       open: false,
@@ -29,7 +36,7 @@ function App() {
     },
     {
       question: 'What contract will you be using?',
-      answer: 'A gas optimised contract ',
+      answer: ' Gas optimised 721A contract ',
       open: false,
     },
   ]);
